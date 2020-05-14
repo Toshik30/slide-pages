@@ -1,0 +1,24 @@
+@import "base/normalize";
+@import "base/fonts";
+@import "base/variables";
+@import "base/mixins";
+
+* {
+	box-sizing: border-box;
+	background: transparent;
+}
+
+body {
+	font-family: $primary-font;
+	color: $text-primary;
+	font-size: $primary-font-size;
+}
+
+section {
+	padding: 2em 0;
+}
+
+@import "layouts/header";
+
+
+

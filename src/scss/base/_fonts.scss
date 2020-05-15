@@ -1,6 +1,14 @@
 @font-face {
-	font-family: "Montserrat";
-	src: url("../src/fonts/Montserrat-Regular.ttf") format("opentype");
+	font-family: "OpenSans";
+	src: url("../src/fonts/OpenSans-Regular.ttf") format("opentype");
 }
-$primary-font: Montserrat, sans-serif;
+@font-face {
+	font-family: "OpenSans-ExtraBold";
+	src: url("../src/fonts/OpenSans-ExtraBold.ttf") format("opentype");
+}
+@font-face {
+	font-family: "OpenSans-Light";
+	src: url("../src/fonts/OpenSans-Light.ttf") format("opentype");
+}
+$primary-font: OpenSans, sans-serif;
 

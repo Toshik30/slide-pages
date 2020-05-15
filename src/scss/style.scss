@@ -5,20 +5,72 @@
 
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+
+
+}
+h1 {
+	font-weight: $extra-font-weight;
+	font-size: $big-font-size;
+	color: $primary;
+	font-family: "OpenSans-ExtraBold";
+	margin: unset;
+}
+
+button {
+	font-size: $small-font-size;
+	font-weight: $semi-bold-font-weight;
+	color: $primary;
 	background: transparent;
-}
+	text-transform: uppercase;
+	border-color: $primary;
+	padding:  5px 10px;
 
-body {
-	font-family: $primary-font;
-	color: $text-primary;
+
+}
+span {
 	font-size: $primary-font-size;
+	color: $white;
+	font-weight: $light-font-weight;
+	font-family: "OpenSans-Light";
+}
+h3 {
+	font-size: $heading-font-size;
+	color: white;
+	font-weight: $light-font-weight;
+	font-family: "OpenSans-Light";
 }
 
-section {
-	padding: 2em 0;
+.container {
+	margin: 0 auto;
+	width: 100%;
+	@include for-phone-only {
+		max-width: 360px;
+	}
+		@include for-tablet-portrait-up {
+		max-width: 700px;
+	}
+		@include for-tablet-landscape-up {
+		max-width: 980px;
+	}
+		@include for-desktop-up {
+		max-width: 1300px;
+	}
+
+	@include for-big-desktop-up {
+		max-width: 1710px;
+	}	
 }
 
-@import "layouts/header";
+@import "layouts/homepage";
 
 
 

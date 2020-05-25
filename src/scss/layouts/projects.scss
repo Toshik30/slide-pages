@@ -1,0 +1,84 @@
+.projects {
+	background: url(../images/williamiven.jpg) 100%/100%, no-repeat;
+	position: relative;
+
+	.scrolldown {
+		bottom: 40px;
+	}
+
+	.ourprojects {
+		top: 10%;
+	    left: 20%;
+	    position: absolute;
+
+	    button {
+	    	position: absolute;
+	    	bottom: -560px;
+	    	left: calc(50% - -68px);
+	    }
+	}
+	.dark-inset {
+		box-shadow: inset -344px 0px 200px 1px rgba(0, 0, 0, 0.9);
+		background: rgba(0,0,0,.7);
+		position: absolute;
+	    width: 100%;
+	    height: 455px;
+	    top: 334px;
+	    z-index: 1;
+	    pointer-events: none;
+	}
+	.carousel {
+		top: 250px;
+
+		.sl {
+			padding-right: 30px;
+
+			&:hover button {
+				content: '';
+				display: block;
+				opacity: 1;
+				z-index: 10;
+				transition: opacity 0.3s;
+				overflow: hidden;
+			}
+
+
+			button {
+				position: absolute;
+				display: none;
+			    top: 25%;
+			    margin: 100px 136px 100px 136px;
+
+			}
+
+			img {
+				width: 100%;
+				min-width: 452px;
+				min-height: 452px;
+
+			}
+		}
+		.slick-dots {
+			li {
+				height: 0;
+				width: 0;
+			}
+
+			button {
+				margin: 20px 0;
+				padding: 0;
+
+
+				&:before {
+					  top: 20px;
+					  content: '';
+					  border-left: 2px solid white;
+					  width: 2px;
+					  color: white;
+				}
+			}
+		}
+	}
+}
+
+

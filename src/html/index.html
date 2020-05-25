@@ -2,23 +2,40 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Devstab</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 </head>
 <body>
   <div id="fullpage">
-      <%= _.template(require('./includes/homepage.html').default)(data) %>    
-  </div>
+      <%= _.template(require('./includes/homepage.html').default)(data) %>  
+      <%= _.template(require('./includes/story.html').default)(data) %>
+      <%= _.template(require('./includes/projects.html').default)(data) %>
+      <%= _.template(require('./includes/information.html').default)(data) %>
 
+  </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
-  <script type="text/javascript">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>  
+<script type="text/javascript">
       new fullpage('#fullpage', {
-        //options here
-        autoScrolling:true,
-        scrollHorizontally: true
+        navigationTooltips: ['awdawdawd', 'ijswhfoejslf'],
+        navigation: true,
+        navigationPosition: 'right',
+        fixedElements: '#navigation, #fp-nav, #footer',
+        cards: true,
+        cardsOptions: {perspective: 100, fadeContent: true, fadeBackground: true},
       });
+
+      $('.carousel').slick({
+        autoplay: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+    });
+      
   </script>
 </body>
 </html>

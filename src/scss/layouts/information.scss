@@ -69,4 +69,14 @@
 			}
 		}
     }
+    footer {
+    	left: calc(50% - 182.5px);
+
+
+		a {
+			color: $white;
+			text-decoration: none;
+			opacity: .7;
+		}
+    }
 }

@@ -3,15 +3,13 @@
 .story {
 	background: url(../images/ourstoryBG.jpg) 100%/100%, no-repeat ;
 	position: relative;
-	
-	.ourstory {
-		top: 25%;
-	    left: 20%;
-	    position: absolute;
-
-		h3 {
-			font-size: $primary-font-size;
-			max-width: 80%;
-		}
-	}
+}
+.ourstory {
+	top: 25%;
+    left: 20%;
+    position: absolute;	
+}
+h3 {
+	font-size: $primary-font-size;
+	max-width: 80%;
 }

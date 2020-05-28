@@ -173,30 +173,38 @@ footer {
 
 .container {
 	margin: 0 auto;
+	padding: 0 20px;
 	width: 100%;
-	@include for-phone-only {
-		max-width: 360px;
+
+	
+}
+		@include for-phone-only {
+			max-width: 360px;
+		
 	}
 		@include for-tablet-portrait-up {
-		max-width: 700px;
+			min-width: 700px;
+	
 	}
 		@include for-tablet-landscape-up {
-		max-width: 980px;
+			max-width: 980px;
 	}
 		@include for-desktop-up {
-		max-width: 1300px;
+			max-width: 1300px;
+
 	}
 
-	@include for-big-desktop-up {
-		max-width: 1710px;
+		@include for-big-desktop-up {
+			max-width: 1710px;
 	}	
-}
+
 
 
 @import "layouts/homepage";
 @import "layouts/story";
 @import "layouts/projects";
 @import "layouts/information";
+@import "layouts/media-queries";
 
 
 

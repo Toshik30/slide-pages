@@ -1,0 +1,22 @@
+@import "../base/variables";
+
+.story {
+	background: url(../images/ourstoryBG.jpg) center/cover no-repeat ;
+	position: relative;
+}
+// .ourstory {
+// 	top: 25%;
+//     left: 20%;
+//     position: absolute;	
+/* } */
+h3 {
+	font-size: $primary-font-size;
+	max-width: 80%;
+}
+
+.ourstory {
+	width: 100%;
+	margin-left: 20%;
+	margin-top: 60px;
+	position: relative;
+ }

@@ -1,0 +1,29 @@
+$big-font-size:125px;
+$heading-font-size:48px;
+$primary-font-size: 36px;
+$small-font-size: 22px;
+
+$extra-font-weight:800;
+$bold-font-weight:700;
+$semi-bold-font-weight:600;
+$medium-font-weight:500;
+$regular-font-weight:400;
+$light-font-weight:300;
+
+$primary: #27ca81;
+$white: #feffff;
+$text-primary: #27ca81;
+
+
+%flex-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+%flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+

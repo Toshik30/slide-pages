@@ -1,0 +1,469 @@
+@import "../base/variables";
+
+@media (min-width: 320px) and (max-width: 699px) {
+
+	#navigation {
+		top:15px;
+	}
+
+	section {
+    	&:after {
+    	display: none;                
+    }
+}
+	h1 {
+		font-size: 44px;
+
+			&:before {
+			display: none;                
+		}
+	}
+
+	h3 {
+		font-size: 18px;
+		max-width: 100%;
+	}
+
+	span {
+		font-size: 18px;
+	}
+
+	button {
+		font-size: 22px;
+	}
+
+	.container {
+
+		.devstar {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+	    	min-height: 100vh;
+	    	flex-direction: column;
+		    position: unset;
+		}
+	}
+
+	.story {
+		background: url(../images/ourstoryBG.jpg )58% 81%;
+
+		.scrolldown {
+			bottom: 5%;
+			position: absolute;
+		}
+	}
+	
+
+	.ourstory {
+		margin-left: 0%;
+	    text-align: center;
+	}
+
+	.idea {
+		padding-top: 15px;
+
+		img {
+			width: 45px;
+			height: 45px;
+		}
+		span {
+			display: none;
+		}
+	}
+	
+	.social {
+		display: none;
+	}
+.menu-nav_active {
+	transform: scaleX(1) translateX(0);
+    opacity: 1;
+    display: flex;
+    width: 100%;
+    padding-right: 0px;
+    position: fixed;
+    flex-direction: column;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    background: #000000a6;
+    backdrop-filter: blur(8px);
+    font-size: 42px;
+}	
+
+.projects {
+	background: url(../images/williamiven.jpg) 90% 70%;
+
+	.scrolldown {
+		bottom: 5%;
+		position: absolute;
+	}
+
+	.ourprojects {
+		margin-left: 0%;
+	    text-align: center;
+	    margin-top: 30px;  
+	}
+	button {
+		margin-top: 15px;
+	}
+}
+
+.dark-inset {
+	margin: 15px 0;
+}
+
+.carousel {
+    width: 100%;
+    margin-bottom: 0px;
+
+
+    .slick-next, .slick-prev {
+    		display: none;
+    	}
+    	
+		.sl {
+			width: 100%;
+			max-height: 320px;
+			padding-right: 0px;
+
+			&:hover button {
+				content: '';
+				display: block;
+				opacity: 1;
+				z-index: 10;
+				transition: opacity 0.3s;
+				overflow: hidden;
+			}
+
+			
+			img {
+				width: 100%;
+				height: 290px;
+			}
+		}
+	}
+	.information {
+
+		.scrolldown {
+			display: none;
+		}
+
+		.find-us {
+			min-width: 90%;
+			left: 0;
+			right: 0;
+			position: unset;
+			justify-content: center;
+			text-align: center;
+
+			.form {
+				display: inline-block;
+				min-width: 100%;
+				text-align:  left;
+
+				 form {
+		    	    display: block;
+		    	    min-width: 90%;
+		    	    margin: 0 auto;
+
+
+				    p {
+				    	min-width: 90%;
+				    	padding: 3px;
+				    }
+
+				    .big-input {
+
+				    	 input {
+				    	 	height: 60px;
+
+				    	 }
+				    }
+
+				    button {
+				    	margin:10px auto;
+				    	display: flex;
+					}
+				}
+
+				.contacts {
+					min-width: 90%;
+					text-align: center;
+					margin: 0 auto;
+
+					h3 {
+						font-size: 18px;
+						margin: 0 auto;
+
+					}
+					a {
+						font-size: 15px;
+						line-height: 20px;
+					}
+				}
+			}
+		}
+		.social-icons {
+			justify-content: space-between;
+		    display: flex;
+		}
+	}
+	footer {
+		width: 66%;
+	    display: flex;
+	    right: 0;
+	    position: unset;
+	    margin: 27px auto 2px;
+	    text-align: center;
+		
+	}
+}
+
+@media (min-width: 700px) and (max-width: 980px) {
+
+	#navigation {
+		top:15px;
+	}
+	.menu-nav_active {
+	transform: scaleX(1) translateX(0);
+    opacity: 1;
+    display: flex;
+    width: 100%;
+    padding-right: 0px;
+    position: fixed;
+    flex-direction: column;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    background: #000000a6;
+    backdrop-filter: blur(8px);
+    font-size: 42px;
+}	
+
+	section {
+    	&:after {
+    	display: none;                
+    }
+}
+	h1 {
+		font-size: 88px;
+
+			&:before {
+			display: none;                
+		}
+	}
+
+	h3 {
+		font-size: 34px;
+		margin: 0 auto;
+	}
+
+	span {
+		font-size: 28px;
+	}
+
+	button {
+		font-size: 32px;
+	}
+
+	.container {
+
+		.devstar {
+		    align-items: center;
+		    justify-content: center;
+		    padding-top: 40%;
+		    flex-wrap: wrap;
+		    text-align: center;
+		    top: 0;
+		    left: 0;
+		    position: unset;
+		}
+	}
+
+	.story {
+		background: url(../images/ourstoryBG.jpg )58% 81%;
+
+		.scrolldown {
+			bottom: 5%;
+			position: absolute;
+		}
+	}
+	.dark-inset {
+		
+	    
+	    z-index: 1;
+	    pointer-events: none;
+}
+
+	.ourstory {
+		margin-left: 0%;
+		text-align: center;
+	}
+
+	.idea {
+		padding-top: 15px;
+
+		img {
+			width: 45px;
+			height: 45px;
+		}
+		span {
+			display: none;
+		}
+	}
+	
+	.social {
+		display: none;
+	}
+	
+
+.projects {
+	background: url(../images/williamiven.jpg) 90% 70%;
+
+	.scrolldown {
+		bottom: 5%;
+		position: absolute;
+	}
+
+	.ourprojects {
+		margin-left: 0%;
+		text-align: center;
+
+	}
+}
+
+.carousel {
+		top: 5%;
+		width: 90%;
+    	margin: 0px auto;
+
+    	.slick-next, .slick-prev {
+    		display: none;
+    	}
+    	
+		.sl {
+			margin-right: 30px;
+			max-height: 360px;
+
+			&:hover button {
+				content: '';
+				display: block;
+				opacity: 1;
+				z-index: 10;
+				transition: opacity 0.3s;
+				overflow: hidden;
+			}
+
+
+			button {
+				position: absolute;
+				display: none;
+			    top: 25%;
+			    margin: 100px 136px 100px 136px;
+
+			}
+
+			img {
+				width: 100%;
+				height: 290px;
+			}
+		}
+	}
+	.information {
+
+		.scrolldown {
+			display: none;
+		}
+
+		.find-us {
+			min-width: 90%;
+			left: 0;
+			right: 0;
+			position: unset;
+			justify-content: center;
+			text-align: center;
+
+			.form {
+				display: inline-block;
+				min-width: 100%;
+				text-align:  left;
+
+				 form {
+		    	    display: block;
+		    	    min-width: 90%;
+		    	    margin: 0 auto;
+
+		    	    input:focus {
+		    	    	outline: none;
+		    	    	padding: 0px 10px;
+		    	    }
+
+
+				    p {
+				    	min-width: 90%;
+				    	padding: 6px;
+				    }
+
+				    .big-input {
+
+				    	 input {
+				    	 	height: 100px;
+
+				    	 }
+				    }
+
+				    button {
+				    	margin:10px auto;
+				    	display: flex;
+					}
+				}
+
+				.contacts {
+					min-width: 90%;
+					text-align: center;
+					margin: 0 auto;
+
+					h3 {
+						font-size: 28px;
+						margin: 0 auto;
+
+					}
+					a {
+						font-size: 20px;
+						line-height: 20px;
+					}
+				}
+			}
+		}
+		.social-icons {
+			justify-content: center;
+		    display: flex;
+		}
+	}
+	footer {
+		width: 66%;
+	    display: flex;
+	    right: 0;
+	    position: unset;
+	    margin: 27px auto 2px;
+	    text-align: center;
+
+	    a {
+	    	position: absolute;
+	    	bottom: 1%;
+	    	left: calc(50% - 172px);
+
+	    }
+	}
+}
+@media (min-width: 981px) and (max-width: 1280px) {
+	
+}

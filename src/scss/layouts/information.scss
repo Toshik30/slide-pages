@@ -1,0 +1,83 @@
+.information {
+	background: url(../images/Map2.png) 100%/100%, no-repeat; 
+	position: relative;
+
+
+	.find-us {
+		top: 10%;
+	    left: 20%;
+	    position: absolute;    
+    }   
+}
+
+footer {
+	left: calc(50% - 182.5px);
+
+
+	a {
+		color: $white;
+		text-decoration: none;
+		opacity: .7;
+	}
+}
+
+.contacts {
+	width: 25%;
+	margin-left: 120px;
+
+	a {
+		text-decoration: none;
+		color: white;
+		line-height: 35px;
+	}
+	img {
+		max-width: 40px;
+		max-height: 40px;
+		filter: invert(1);
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+}
+
+form {
+	    display: flex;
+	    flex-wrap: wrap;
+	    color: white;
+	    width: 50%;
+
+	    .contacts {
+	    	width: 50%;
+	    }
+
+	    p {
+	    	min-width: 50%;
+	    	padding: 10px 10px 10px 0;
+	    }
+
+	    .big-input {
+	    	width: 100%;
+
+	    	 input {
+	    	 	height: 200px;
+
+	    	 }
+	    }
+
+	    input {
+	    	color: white;
+	    	height: 40px;
+	    	width: 100%;
+	    	border: 2px solid white;
+	    	background: transparent;
+	}
+}
+
+.form {
+	display: flex;
+
+	h3 {
+		font-size: $primary-font-size;
+		font-weight: $semi-bold-font-weight;
+		color: $white;
+	}
+}    		

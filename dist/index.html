@@ -2,52 +2,240 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Devstab</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 <link href="./css/style.bundle.css" rel="stylesheet"></head>
 <body>
   <div id="fullpage">
-      <section class="black-theme">
-	<section class="video-holder ">
-		<div id="video_container" >
-			<video autoplay="autoplay" loop="loop" muted="muted"  id="bgvid">
-				<source src="../src/images/HelloWorlf.mp4" type="video/mp4"/>
-				
-			</video>
-		</div>
-		<div class="container">
-			<nav>
-				<div class="logo">
-					
-				</div>
-				<ul>
-					<li>Home</li>
-					<li>About us</li>
-					<li>Portfolio</li>
-					<li>Contact</li>
-				</ul>
-			</nav>
-			<div class="devstar">
-				<span>Hello! We are</span>
-				<h1>Devster Lab</h1>
-				<h3>Software Engineering Studio.</h3>
-				<button>Have an idea?</button>
+      <section class="video-holder section  ">
+	<div id="video_container" >
+		<video autoplay="autoplay" loop="loop" muted="muted"  id="bgvid">
+			<source src="../dist/images/HelloWorld.mp4" type="video/mp4"/>
+		</video>
+	</div>
+	<div class="container">
+		<div class="container " id="navigation">
+			<div class="logo">
+				<img src="../images/logotype.png" alt="">
 			</div>
+			<nav class="menu-nav">
+				<a class="menu-nav__link" href="#"></a>Home</a>
+				<a class="menu-nav__link" href="#"></a>About us</a>
+				<a class="menu-nav__link" href="#"></a>Portfolio</a>
+				<a class="menu-nav__link" href="#"></a>Contact</a>
+			</nav>
+			<a href="#" class="menu-btn">
+				<span></span>
+			</a>
+		</div>
+		<div class="devstar">
+			<span>Hello! We are</span>
+			<h1>Devster Lab</h1>
+			<h3>Software Engineering Studio.</h3>
+			<button>Have an idea?</button>
+		</div>
+		<div class="scrolldown">
+			<p>Scroll down</p>
+			<span></span>
+		</div>
+	</div>
+	<footer id="footer">
+		<div class="social" >
+			<img src="../images/icons/facebook.png" alt="#">
+			<img src="../images/icons/twitter.png" alt="#">
+			<img src="../images/icons/linkedin.png" alt="#">
+			<img src="../images/icons/instagram.png" alt="#">
+		</div>
+	</footer>
+</section>  
+      <section class="story section dark-bg-cl">
+	<div class="container">
+		<div class="idea">
+			<img src="../images/icons/idea-icon-green.png" alt="#">
+			<span>Have idea?</span>
+		</div>
+		<div class="ourstory ">
+			<span>Why we are?</span>
+			<h1>Our story</h1>
+			<h3>We are a team of techies - programmers, designers, dreamers, and innovators - who understand business. We write code to make software applications while working with businesses, start-ups, and entrepreneurs to make their visions a reality. </h3>
+			<button>discaver more</button>
+		</div>
+		<div class="scrolldown">
+			<p>Scroll down</p>
+			<span></span>
 		</div>
 	</div>
 </section>
-</section>    
-  </div>
+      <section class="projects section dark-bg-cl">
+	<div class="container cont-projects">
+		<div class="idea">
+			<img src="../images/icons/idea-icon-green.png" alt="#">
+			<span>Have idea?</span>
+		</div>
+		<div class="ourprojects">
+			<span>What we do?</span>
+			<h1>Our projects</h1>
+		</div>
+	
+	<div class="dark-inset" >
+		<div class="carousel ">
+			<div class="sl">
+				<img src="../images/firstslide.jpg" alt="">
+				<button>see project</button>
+			</div>
+			<div class="sl">
+				<img src="../images/secondslide.jpg" alt="">
+				<button>see project</button>
+			</div>
+			<div class="sl">
+				<img src="../images/thirtyslide.jpg" alt="">
+				<button>see project</button>
+			</div>
+			<div class="sl">
+				<img src="../images/thoslide.jpg" alt="">
+				<button>see project</button>
+			</div>
+			<div class="sl">
+				<img src="../images/slide5.jpg" alt="">
+				<button>see project</button>
+			</div>
+			<div class="sl">
+				<img src="../images/slide6.jpg" alt="">
+				<button>see project</button>
+			</div>
+			<div class="sl">
+				<img src="../images/slide7.jpg" alt="">
+				<button>see project</button>
+			</div>
+			<div class="sl">
+				<img src="../images/slide8.jpg" alt="">
+				<button>see project</button>
+			</div>
+		</div>
+	</div>
+	<button>view all cases</button>
+	<div class="scrolldown">
+		<p>Scroll down</p>
+		<span></span>
+	</div>
+</div>
+</section>
+      <section class="information section dark-bg-cl">
+	<div class="container">
+		<div class="idea">
+			<img src="../images/icons/idea-icon-green.png" alt="#">
+			<span>Have idea?</span>
+		</div>
+		<div class="find-us">
+			<span>How to find us?</span>
+			<h1>Information</h1>
+			<div class="form">
+				<form action="">
+					<p>
+						<label for="">
+							Home <br>
+							<input type="text" name="Home" alt="Home">
+						</label>
+					</p>
+					<p>
+						<label for="">
+							Subject <br>
+							<input type="text" name="Subject" >
+						</label>
+					</p>
+					<p>
+						<label for="">
+							E-mail <br>
+							<input type="email" name="E-mail" >
+						</label>
+					</p>
+					<p>
+						<label for="">
+							Phone <br>
+							<input type="tel" name="Phone" >
+						</label>
+					</p>
+					<p class="big-input">
+						<label for="">
+							Discription <br>
+							<input type="text" name="Discription" >
+						</label>
+					</p>
+					<button>Send message</button>
+				</form>
+				<div class="contacts">
+					<h3>Contacts:</h3>
+					<a href="tel:0689942906">Phone +38(068)994 2 906</a><br>
+					<a href="#">E-mail: info@devsterlab.com</a><br>
+					<a href="#">Adress: Chyhorina st,ap.212, Kyiv, Ukraine 01042</a>
 
+					<h3>We in media social:</h3>
+					<div class="social-icons">
+						<img src="../images/icons/facebook.png" alt="#">
+						<img src="../images/icons/twitter.png" alt="#">
+						<img src="../images/icons/linkedin.png" alt="#">
+						<img src="../images/icons/instagram.png" alt="#">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<a href="#">Designed and developed by © Devster Lab 2017</a>
+		</div>
+	</footer>
+</section>
+
+  </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
-  <script type="text/javascript">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>  
+<script type="text/javascript">
       new fullpage('#fullpage', {
-        //options here
-        autoScrolling:true,
-        scrollHorizontally: true
+        navigationTooltips: ['awdawdawd', 'ijswhfoejslf'],
+        navigation: true,
+        navigationPosition: 'right',
+        fixedElements: '#navigation, #fp-nav, #footer',
+        cards: true,
+        cardsOptions: {perspective: 100, fadeContent: true, fadeBackground: true},
       });
+
+      $('.carousel').slick({
+        autoplay: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        responsive: [
+        {
+        breakpoint: 979,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: false
+        }
+      },
+        {
+          breakpoint: 699,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
+        }
+      }
+    ]
+  });
+
+      $('.menu-btn').on('click', function(e) {
+        e.preventDefault;
+        $(this).toggleClass('menu-btn_active');
+        $('.menu-nav').toggleClass('menu-nav_active');
+      });
+      
   </script>
 <script type="text/javascript" src="./js/bundle.js"></script></body>
 </html>
